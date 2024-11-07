@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1, h3 {
+            text-align: center;
+        }
+        .quebra {
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 16px;
+            margin: 10px;
+        }
+        .paragrafo-negrito {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .paragrafo-italic {
+            text-align: center;
+            font-style: italic;
+        }
+        .paragrafo-direita {
+            text-align: right;
+            text-decoration: underline;
+            color: red;
+        }
+        .imagem-local {
+            width: 300px;
+            height: 200px;
+        }
+        .imagem-remota {
+            width: 500px;
+            height: 250px;
+            border: 2px solid black;
+        }
+        ul {
+            list-style-type: square;
+        }
+        ol {
+            list-style-type: upper-roman;
+        }
+    </style>
+</head>
+<body>
+    <!-- Título centralizado -->
+    <h1>Bem-vindo ao Meu Site</h1>
+
+    <!-- Subtítulo centralizado -->
+    <h3>Exemplo de Estrutura HTML</h3>
+
+    <!-- Frase com quebra no meio -->
+    <span class="quebra">Este é um exemplo de site que possui vários elementos.</span>
+
+    <!-- Parágrafo comum, fonte tamanho 2 e negrito -->
+    <p class="paragrafo-negrito">Este é um parágrafo em negrito com fonte tamanho 2.</p>
+
+    <!-- Parágrafo centralizado, fonte normal e itálico -->
+    <p class="paragrafo-italic">Este é um parágrafo centralizado e em itálico.</p>
+
+    <!-- Parágrafo alinhado à direita, fonte sublinhada e vermelha -->
+    <p class="paragrafo-direita">Este é um parágrafo alinhado à direita, com fonte sublinhada e vermelha.</p>
+
+    <!-- Imagem referenciada localmente -->
+    <img class="imagem-local" src="imagem-local.jpg" alt="Imagem Local">
+
+    <!-- Imagem referenciada remotamente -->
+    <img class="imagem-remota" src="https://via.placeholder.com/500x250" alt="Imagem Remota">
+
+    <!-- Lista não ordenada com marcadores quadrados -->
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <!-- Lista ordenada com números romanos -->
+    <ol>
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+    </ol>
+
+    <!-- Lista sem marcadores -->
+    <ul style="list-style-type: none;">
+        <li>Item sem marcador 1</li>
+        <li>Item sem marcador 2</li>
+        <li>Item sem marcador 3</li>
+    </ul>
+</body>
+</html>
